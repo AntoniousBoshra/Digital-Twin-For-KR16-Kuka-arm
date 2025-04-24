@@ -1,0 +1,49 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found controller_manager: 2.49.0 (/opt/ros/humble/share/controller_manager/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found joint_trajectory_controller: 2.43.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+-- Found joint_state_broadcaster: 2.43.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+-- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ros2_controllers: 2.43.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+-- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (2.1s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+-- Install configuration: ""
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config/kuka_arm_controller.yaml
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch
+-- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch/controller.launch.py
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/package_run_dependencies/kuka_arm_controller
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/parent_prefix_path/kuka_arm_controller
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.sh
+-- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.sh
+-- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.dsv
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.bash
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.sh
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.zsh
+-- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.dsv
+-- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.dsv
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/packages/kuka_arm_controller
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig.cmake
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig-version.cmake
+-- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.xml

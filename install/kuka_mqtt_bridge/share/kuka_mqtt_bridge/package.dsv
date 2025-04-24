@@ -1,0 +1,6 @@
+source;share/kuka_mqtt_bridge/hook/pythonpath.ps1
+source;share/kuka_mqtt_bridge/hook/pythonpath.dsv
+source;share/kuka_mqtt_bridge/hook/pythonpath.sh
+source;share/kuka_mqtt_bridge/hook/ament_prefix_path.ps1
+source;share/kuka_mqtt_bridge/hook/ament_prefix_path.dsv
+source;share/kuka_mqtt_bridge/hook/ament_prefix_path.sh

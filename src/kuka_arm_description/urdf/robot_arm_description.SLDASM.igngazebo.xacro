@@ -1,0 +1,17 @@
+<gazebo>
+  <plugin name="ignition_ros2_control" filename="libignition_ros2_control-system.so">
+    <ros>
+      <namespace>/</namespace>
+      <remapping>robot_description:=robot_description</remapping>
+      <remapping>robot_param_node:=robot_state_publisher</remapping>
+      <parameter name="use_sim_time">true</parameter>
+      <parameter name="update_rate">100</parameter>
+      <parameter name="control_period">0.01</parameter>
+      <parameter name="verbose">false</parameter>
+      <parameter name="start_controllers">true</parameter>
+      <parameter name="command_lag">0.0</parameter>
+      <parameter name="controller_manager_yaml">$(find kuka_arm_controller)/config/kuka_arm_controller.yaml</parameter>
+    </ros>
+    <robot_param>robot_description</robot_param>
+  </plugin>
+</gazebo>

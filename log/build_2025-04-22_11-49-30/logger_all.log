@@ -1,0 +1,268 @@
+[0.333s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.333s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7775d1047d90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7775d1005630>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7775d1005630>>, mixin_verb=('build',))
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.474s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.474s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/antoniousboshra/antonious_boshra_kuka_arm'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.474s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extensions ['cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/antoniobrandifirstpython) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extension 'ignore_ament_install'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extensions ['colcon_pkg']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extension 'colcon_pkg'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extensions ['colcon_meta']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extension 'colcon_meta'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extensions ['ros']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_controller) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_arm_controller' with type 'ros.ament_cmake' and name 'kuka_arm_controller'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extensions ['ignore', 'ignore_ament_install']
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extension 'ignore'
+[0.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extensions ['colcon_pkg']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extension 'colcon_pkg'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extensions ['colcon_meta']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_arm_description) by extension 'ros'
+[0.496s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_arm_description' with type 'ros.ament_cmake' and name 'kuka_arm_description'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extensions ['ignore', 'ignore_ament_install']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extension 'ignore'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extension 'ignore_ament_install'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extensions ['colcon_pkg']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extension 'colcon_pkg'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extensions ['colcon_meta']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extension 'colcon_meta'
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extensions ['ros']
+[0.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/kuka_mqtt_bridge) by extension 'ros'
+[0.497s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kuka_mqtt_bridge' with type 'ros.ament_python' and name 'kuka_mqtt_bridge'
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.497s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.556s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/antoniousboshra/antonious_boshra_kuka_arm/install
+[0.557s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/antoniousboshra/antoniobrandifirst_ws/install
+[0.558s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 455 installed packages in /opt/ros/humble
+[0.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'cmake_target' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.659s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.659s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_arm_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller', 'merge_install': False, 'path': '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_controller', 'symlink_install': False, 'test_result_base': None}
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'cmake_target' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_arm_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_arm_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description', 'merge_install': False, 'path': '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description', 'symlink_install': False, 'test_result_base': None}
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'cmake_target' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'cmake_clean_cache' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'cmake_clean_first' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'cmake_force_configure' from command line to 'False'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'ament_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'catkin_cmake_args' from command line to 'None'
+[0.660s] Level 5:colcon.colcon_core.verb:set package 'kuka_mqtt_bridge' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.660s] DEBUG:colcon.colcon_core.verb:Building package 'kuka_mqtt_bridge' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge', 'merge_install': False, 'path': '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge', 'symlink_install': False, 'test_result_base': None}
+[0.660s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.661s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.661s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_controller' with build type 'ament_cmake'
+[0.661s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_controller'
+[0.664s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.664s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.665s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.681s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description' with build type 'ament_cmake'
+[0.681s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description'
+[0.681s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.681s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.685s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge' with build type 'ament_python'
+[0.685s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_mqtt_bridge', 'ament_prefix_path')
+[0.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/hook/ament_prefix_path.ps1'
+[0.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/hook/ament_prefix_path.dsv'
+[0.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/hook/ament_prefix_path.sh'
+[0.698s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.698s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.705s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[0.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description -- -j8 -l8
+[0.965s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'kuka_mqtt_bridge' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.965s] WARNING:colcon.colcon_ros.task.ament_python.build:Package 'kuka_mqtt_bridge' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[0.966s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge'
+[0.966s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.966s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description -- -j8 -l8
+[2.037s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description
+[2.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_arm_description)
+[2.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description
+[2.296s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description' for CMake module files
+[2.297s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description' for CMake config files
+[2.297s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_arm_description', 'cmake_prefix_path')
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/hook/cmake_prefix_path.ps1'
+[2.297s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/hook/cmake_prefix_path.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/hook/cmake_prefix_path.sh'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/bin'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/lib/pkgconfig/kuka_arm_description.pc'
+[2.298s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/lib/python3.10/site-packages'
+[2.299s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/bin'
+[2.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.ps1'
+[2.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.dsv'
+[2.359s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.sh'
+[2.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.bash'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.zsh'
+[2.446s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/colcon-core/packages/kuka_arm_description)
+[2.446s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_arm_description)
+[2.447s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description' for CMake module files
+[2.447s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description' for CMake config files
+[2.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_arm_description', 'cmake_prefix_path')
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/hook/cmake_prefix_path.ps1'
+[2.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/hook/cmake_prefix_path.dsv'
+[2.448s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/hook/cmake_prefix_path.sh'
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/bin'
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/lib/pkgconfig/kuka_arm_description.pc'
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/lib/python3.10/site-packages'
+[2.448s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/bin'
+[2.449s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.ps1'
+[2.449s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.dsv'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.sh'
+[2.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.bash'
+[2.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.zsh'
+[2.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/colcon-core/packages/kuka_arm_description)
+[2.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[2.917s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[2.920s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_arm_controller)
+[2.920s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller' for CMake module files
+[2.921s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller' for CMake config files
+[2.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_arm_controller', 'cmake_prefix_path')
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/hook/cmake_prefix_path.ps1'
+[2.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/hook/cmake_prefix_path.dsv'
+[2.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/hook/cmake_prefix_path.sh'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/bin'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/lib/pkgconfig/kuka_arm_controller.pc'
+[2.923s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/lib/python3.10/site-packages'
+[2.924s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/bin'
+[2.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.ps1'
+[2.924s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.dsv'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.sh'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.bash'
+[2.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.zsh'
+[2.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/colcon-core/packages/kuka_arm_controller)
+[2.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_arm_controller)
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller' for CMake module files
+[2.927s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller' for CMake config files
+[2.927s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_arm_controller', 'cmake_prefix_path')
+[2.927s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/hook/cmake_prefix_path.ps1'
+[2.928s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/hook/cmake_prefix_path.dsv'
+[2.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/hook/cmake_prefix_path.sh'
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/bin'
+[2.928s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/lib/pkgconfig/kuka_arm_controller.pc'
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/lib/python3.10/site-packages'
+[2.929s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/bin'
+[2.929s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.ps1'
+[2.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.dsv'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.sh'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.bash'
+[2.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.zsh'
+[2.931s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/colcon-core/packages/kuka_arm_controller)
+[3.290s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge': PYTHONPATH=/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kuka_mqtt_bridge build --build-base /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/build install --record /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/install.log --single-version-externally-managed
+[3.531s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge' for CMake module files
+[3.531s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge' returned '0': PYTHONPATH=/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kuka_mqtt_bridge build --build-base /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/build install --record /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/install.log --single-version-externally-managed
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge' for CMake config files
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib'
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/bin'
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/pkgconfig/kuka_mqtt_bridge.pc'
+[3.532s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages'
+[3.532s] Level 1:colcon.colcon_core.shell:create_environment_hook('kuka_mqtt_bridge', 'pythonpath')
+[3.533s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/hook/pythonpath.ps1'
+[3.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/hook/pythonpath.dsv'
+[3.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/hook/pythonpath.sh'
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/bin'
+[3.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kuka_mqtt_bridge)
+[3.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/package.ps1'
+[3.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/package.dsv'
+[3.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/package.sh'
+[3.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/package.bash'
+[3.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/kuka_mqtt_bridge/package.zsh'
+[3.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/share/colcon-core/packages/kuka_mqtt_bridge)
+[3.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.594s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.594s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.599s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.600s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.600s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.612s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/local_setup.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antoniousboshra/antonious_boshra_kuka_arm/install/_local_setup_util_ps1.py'
+[3.614s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/setup.ps1'
+[3.615s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/local_setup.sh'
+[3.616s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/antoniousboshra/antonious_boshra_kuka_arm/install/_local_setup_util_sh.py'
+[3.616s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/setup.sh'
+[3.618s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/local_setup.bash'
+[3.618s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/setup.bash'
+[3.620s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/local_setup.zsh'
+[3.621s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/antoniousboshra/antonious_boshra_kuka_arm/install/setup.zsh'

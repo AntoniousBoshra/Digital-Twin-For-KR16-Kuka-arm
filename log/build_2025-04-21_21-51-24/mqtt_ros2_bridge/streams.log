@@ -1,0 +1,24 @@
+[1.305s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/mqtt_ros2_bridge': PYTHONPATH=/home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mqtt_ros2_bridge build --build-base /home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/build install --record /home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/install.log --single-version-externally-managed install_data
+[1.826s] running egg_info
+[1.828s] writing ../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/PKG-INFO
+[1.828s] writing dependency_links to ../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/dependency_links.txt
+[1.829s] writing entry points to ../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/entry_points.txt
+[1.829s] writing requirements to ../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/requires.txt
+[1.829s] writing top-level names to ../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/top_level.txt
+[1.832s] reading manifest file '../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/SOURCES.txt'
+[1.833s] writing manifest file '../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info/SOURCES.txt'
+[1.834s] running build
+[1.834s] running build_py
+[1.834s] copying mqtt_ros2_bridge/mqtt_ros2_bridge.py -> /home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/build/lib/mqtt_ros2_bridge
+[1.834s] running install
+[1.835s] running install_lib
+[1.836s] copying /home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/build/lib/mqtt_ros2_bridge/mqtt_ros2_bridge.py -> /home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/python3.10/site-packages/mqtt_ros2_bridge
+[1.837s] byte-compiling /home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/python3.10/site-packages/mqtt_ros2_bridge/mqtt_ros2_bridge.py to mqtt_ros2_bridge.cpython-310.pyc
+[1.838s] running install_data
+[1.838s] running install_egg_info
+[1.842s] removing '/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/python3.10/site-packages/mqtt_ros2_bridge-0.0.1-py3.10.egg-info' (and everything under it)
+[1.842s] Copying ../../build/mqtt_ros2_bridge/mqtt_ros2_bridge.egg-info to /home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/python3.10/site-packages/mqtt_ros2_bridge-0.0.1-py3.10.egg-info
+[1.843s] running install_scripts
+[1.880s] Installing mqtt_ros2_bridge script to /home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/mqtt_ros2_bridge
+[1.880s] writing list of installed files to '/home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/install.log'
+[1.917s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/mqtt_ros2_bridge' returned '0': PYTHONPATH=/home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mqtt_ros2_bridge build --build-base /home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/build install --record /home/antoniousboshra/antonious_boshra_kuka_arm/build/mqtt_ros2_bridge/install.log --single-version-externally-managed install_data

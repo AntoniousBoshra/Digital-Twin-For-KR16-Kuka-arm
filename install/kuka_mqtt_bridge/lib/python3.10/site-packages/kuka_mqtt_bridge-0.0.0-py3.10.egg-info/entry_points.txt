@@ -1,0 +1,3 @@
+[console_scripts]
+mqtt_to_trajectory = kuka_mqtt_bridge.mqtt_to_trajectory:main
+

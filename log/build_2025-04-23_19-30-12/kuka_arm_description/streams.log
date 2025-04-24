@@ -1,0 +1,41 @@
+[0.287s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description -- -j8 -l8
+[0.882s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description -- -j8 -l8
+[1.015s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description
+[1.048s] -- Install configuration: ""
+[1.049s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes
+[1.049s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/base_link.STL
+[1.049s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/upperarm_Link.STL
+[1.049s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/revolver_Link.STL
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/lowerarm_Link.STL
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/jawgripper_Link.STL
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/body_Link.STL
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/wrist_Link.STL
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/meshes/bottom_link.STL
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/urdf
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/urdf/robot_arm_description.SLDASM.urdf.xacro
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/urdf/robot_arm_description.SLDASM.csv
+[1.050s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/urdf/robot_arm_description.SLDASM_ros2_control.xacro
+[1.051s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/urdf/robot_arm_description.SLDASM.igngazebo.xacro
+[1.051s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/launch
+[1.051s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/launch/kuka_gazebo_launch.py
+[1.127s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/launch/kuka_gazebo.py
+[1.127s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/launch/kuka_ign_gazebo_launch.py
+[1.127s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/launch/kuka_display_launch.py
+[1.127s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/rviz
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/rviz/display.rviz
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/ament_index/resource_index/package_run_dependencies/kuka_arm_description
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/ament_index/resource_index/parent_prefix_path/kuka_arm_description
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/environment/ament_prefix_path.sh
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/environment/ament_prefix_path.dsv
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/environment/path.sh
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/environment/path.dsv
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/local_setup.bash
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/local_setup.sh
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/local_setup.zsh
+[1.128s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/local_setup.dsv
+[1.128s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.dsv
+[1.315s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/ament_index/resource_index/packages/kuka_arm_description
+[1.315s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/cmake/kuka_arm_descriptionConfig.cmake
+[1.315s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/cmake/kuka_arm_descriptionConfig-version.cmake
+[1.315s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_description/share/kuka_arm_description/package.xml
+[1.316s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description

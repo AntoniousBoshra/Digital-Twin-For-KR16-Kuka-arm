@@ -1,0 +1,54 @@
+[0.087s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[0.581s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.582s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.582s]   CMake.
+[0.582s] 
+[0.582s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.582s]   to tell CMake that the project requires at least <min> but has been updated
+[0.582s]   to work with policies introduced by <max> or earlier.
+[0.582s] 
+[0.582s] [0m
+[3.538s] -- The C compiler identification is GNU 11.4.0
+[5.953s] -- The CXX compiler identification is GNU 11.4.0
+[6.057s] -- Detecting C compiler ABI info
+[6.428s] -- Detecting C compiler ABI info - done
+[6.464s] -- Check for working C compiler: /usr/bin/cc - skipped
+[6.464s] -- Detecting C compile features
+[6.466s] -- Detecting C compile features - done
+[6.575s] -- Detecting CXX compiler ABI info
+[6.691s] -- Detecting CXX compiler ABI info - done
+[6.720s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.720s] -- Detecting CXX compile features
+[6.721s] -- Detecting CXX compile features - done
+[6.766s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.678s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[7.936s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.937s] -- Added test 'lint_cmake' to check CMake code style
+[7.939s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[7.943s] -- Added test 'xmllint' to check XML markup files
+[7.981s] -- Configuring done (7.4s)
+[8.025s] -- Generating done (0.0s)
+[8.044s] -- Build files have been written to: /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[8.065s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[8.069s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[8.074s] -- Install configuration: ""
+[8.074s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config
+[8.074s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config/kuka_arm_controller.yaml
+[8.075s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch
+[8.075s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch/controller.launch.py
+[8.075s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/package_run_dependencies/kuka_arm_controller
+[8.075s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/parent_prefix_path/kuka_arm_controller
+[8.076s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.sh
+[8.076s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.dsv
+[8.076s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.sh
+[8.076s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.dsv
+[8.077s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.bash
+[8.077s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.sh
+[8.077s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.zsh
+[8.077s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.dsv
+[8.077s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.dsv
+[8.078s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/packages/kuka_arm_controller
+[8.078s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig.cmake
+[8.078s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig-version.cmake
+[8.079s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.xml
+[8.081s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller

@@ -1,0 +1,53 @@
+[0.037s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[0.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.539s] -- Found controller_manager: 2.49.0 (/opt/ros/humble/share/controller_manager/cmake)
+[0.612s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.618s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.633s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.666s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.716s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.274s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.277s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.326s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.345s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.384s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.400s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.425s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.669s] -- Found joint_trajectory_controller: 2.43.0 (/opt/ros/humble/share/joint_trajectory_controller/cmake)
+[1.802s] -- Found joint_state_broadcaster: 2.43.0 (/opt/ros/humble/share/joint_state_broadcaster/cmake)
+[1.846s] -- Found robot_state_publisher: 3.0.3 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[1.855s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.858s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.033s] -- Found ros2_controllers: 2.43.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+[2.033s] -- Found xacro: 2.0.13 (/opt/ros/humble/share/xacro/cmake)
+[2.034s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.184s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.185s] -- Added test 'lint_cmake' to check CMake code style
+[2.187s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.189s] -- Added test 'xmllint' to check XML markup files
+[2.191s] -- Configuring done (2.1s)
+[2.211s] -- Generating done (0.0s)
+[2.215s] -- Build files have been written to: /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[2.250s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[2.253s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[2.258s] -- Install configuration: ""
+[2.259s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config
+[2.259s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config/kuka_arm_controller.yaml
+[2.259s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch
+[2.259s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch/controller.launch.py
+[2.260s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/package_run_dependencies/kuka_arm_controller
+[2.260s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/parent_prefix_path/kuka_arm_controller
+[2.260s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.sh
+[2.261s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.dsv
+[2.261s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.sh
+[2.261s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.dsv
+[2.261s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.bash
+[2.262s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.sh
+[2.263s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.zsh
+[2.263s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.dsv
+[2.263s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.dsv
+[2.263s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/packages/kuka_arm_controller
+[2.264s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig.cmake
+[2.264s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig-version.cmake
+[2.264s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.xml
+[2.267s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller

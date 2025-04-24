@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_description/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

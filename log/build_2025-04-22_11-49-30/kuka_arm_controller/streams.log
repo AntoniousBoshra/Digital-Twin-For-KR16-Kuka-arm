@@ -1,0 +1,24 @@
+[0.043s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[2.253s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --build /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller -- -j8 -l8
+[2.255s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller
+[2.257s] -- Install configuration: ""
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config
+[2.257s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/config/kuka_arm_controller.yaml
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/launch/controller.launch.py
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/package_run_dependencies/kuka_arm_controller
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/parent_prefix_path/kuka_arm_controller
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.sh
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/ament_prefix_path.dsv
+[2.257s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.sh
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/environment/path.dsv
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.bash
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.sh
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.zsh
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/local_setup.dsv
+[2.258s] -- Installing: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.dsv
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/ament_index/resource_index/packages/kuka_arm_controller
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig.cmake
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/cmake/kuka_arm_controllerConfig-version.cmake
+[2.258s] -- Up-to-date: /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_arm_controller/share/kuka_arm_controller/package.xml
+[2.259s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/antoniousboshra/antonious_boshra_kuka_arm/install/mqtt_ros2_bridge:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge:/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython:/opt/ros/humble /usr/bin/cmake --install /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_arm_controller

@@ -1,0 +1,20 @@
+[4.352s] Invoking command in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge': PYTHONPATH=/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kuka_mqtt_bridge build --build-base /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/build install --record /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/install.log --single-version-externally-managed
+[4.562s] running egg_info
+[4.562s] writing ../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/PKG-INFO
+[4.563s] writing dependency_links to ../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/dependency_links.txt
+[4.563s] writing entry points to ../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/entry_points.txt
+[4.563s] writing requirements to ../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/requires.txt
+[4.563s] writing top-level names to ../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/top_level.txt
+[4.564s] reading manifest file '../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/SOURCES.txt'
+[4.603s] writing manifest file '../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info/SOURCES.txt'
+[4.604s] running build
+[4.604s] running build_py
+[4.604s] running install
+[4.604s] running install_lib
+[4.605s] running install_egg_info
+[4.607s] removing '/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages/kuka_mqtt_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[4.722s] Copying ../../build/kuka_mqtt_bridge/kuka_mqtt_bridge.egg-info to /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages/kuka_mqtt_bridge-0.0.0-py3.10.egg-info
+[4.779s] running install_scripts
+[4.796s] Installing mqtt_to_trajectory script to /home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/kuka_mqtt_bridge
+[4.796s] writing list of installed files to '/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/install.log'
+[4.815s] Invoked command in '/home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_mqtt_bridge' returned '0': PYTHONPATH=/home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/antoniousboshra/antonious_boshra_kuka_arm/install/kuka_mqtt_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kuka_mqtt_bridge build --build-base /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/build install --record /home/antoniousboshra/antonious_boshra_kuka_arm/build/kuka_mqtt_bridge/install.log --single-version-externally-managed

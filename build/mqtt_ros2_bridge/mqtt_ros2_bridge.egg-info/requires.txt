@@ -1,0 +1,4 @@
+paho-mqtt
+rclpy
+setuptools
+trajectory_msgs

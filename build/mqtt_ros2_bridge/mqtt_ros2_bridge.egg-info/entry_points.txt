@@ -1,0 +1,3 @@
+[console_scripts]
+mqtt_ros2_bridge = mqtt_ros2_bridge.mqtt_ros2_bridge:main
+

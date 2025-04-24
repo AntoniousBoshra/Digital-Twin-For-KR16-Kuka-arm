@@ -1,0 +1,17 @@
+{
+    "ros.distro": "humble",
+    "python.autoComplete.extraPaths": [
+        "/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/antoniousboshra/usd_build/lib/python",
+        ""
+    ],
+    "python.analysis.extraPaths": [
+        "/home/antoniousboshra/antoniobrandifirst_ws/install/antoniobrandifirstpython/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages",
+        "/home/antoniousboshra/usd_build/lib/python",
+        ""
+    ]
+}

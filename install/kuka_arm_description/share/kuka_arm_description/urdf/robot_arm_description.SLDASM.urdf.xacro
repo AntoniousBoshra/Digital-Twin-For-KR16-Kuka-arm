@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kuka_arm">
+
+  <xacro:include filename="$(find kuka_arm_description)/urdf/robot_arm_description.SLDASM.igngazebo.xacro" />
+  <xacro:include filename="$(find kuka_arm_description)/urdf/robot_arm_description.SLDASM_ros2_control.xacro" />
+
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="0.15367 0.070407 0.50044"
+        rpy="0 0 0" />
+      <mass
+        value="428.06" />
+      <inertia
+        ixx="380.11"
+        ixy="-0.043314"
+        ixz="0.84416"
+        iyy="814.64"
+        iyz="0.012176"
+        izz="434.66" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.0 0.8 0.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="bottom_link">
+    <inertial>
+      <origin
+        xyz="-0.0011256 0.15876 0.042405"
+        rpy="0 0 0" />
+      <mass
+        value="70.673" />
+      <inertia
+        ixx="2.1518"
+        ixy="0.00070753"
+        ixz="0.022542"
+        iyy="2.2025"
+        iyz="0.060796"
+        izz="1.7401" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/bottom_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/bottom_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="fixed">
+    <origin
+      xyz="0.14947 -0.50162 0.14199"
+      rpy="1.5708 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="bottom_link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <link
+    name="body_Link">
+    <inertial>
+      <origin
+        xyz="0.1401 0.21843 -0.049903"
+        rpy="0 0 0" />
+      <mass
+        value="33.409" />
+      <inertia
+        ixx="0.57464"
+        ixy="-0.22145"
+        ixz="-0.0048455"
+        iyy="0.63432"
+        iyz="-0.0018766"
+        izz="0.80826" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/body_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 0 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/body_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0 0.33819 0"
+      rpy="3.1416 0 3.1416" />
+    <parent
+      link="bottom_link" />
+    <child
+      link="body_Link" />
+    <axis
+      xyz="0 -1 0" />
+    <limit
+      lower="-3.14159"
+      upper="3.14159"
+      effort="500"
+      velocity="2.0" />
+  </joint>
+  <link
+    name="lowerarm_Link">
+    <inertial>
+      <origin
+        xyz="0.00018007 0.3052 0.11008"
+        rpy="0 0 0" />
+      <mass
+        value="13.966" />
+      <inertia
+        ixx="0.59485"
+        ixy="-0.00065844"
+        ixz="0.00020828"
+        iyy="0.059467"
+        iyz="-0.026597"
+        izz="0.59476" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/lowerarm_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.411 0.705 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes//lowerarm_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="0.26 0.30681 0.0525"
+      rpy="0 0 -0.5236" />
+    <parent
+      link="body_Link" />
+    <child
+      link="lowerarm_Link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-2.0944"
+      upper="2.0944"
+      effort="400"
+      velocity="2.0" />
+  </joint>
+  <link
+    name="upperarm_Link">
+    <inertial>
+      <origin
+        xyz="-0.073655 -0.015418 0.074863"
+        rpy="0 0 0" />
+      <mass
+        value="14.959" />
+      <inertia
+        ixx="0.062607"
+        ixy="-0.0092493"
+        ixz="0.022096"
+        iyy="0.44316"
+        iyz="0.0038154"
+        izz="0.45032" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/upperarm_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/upperarm_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="0 0.68 0"
+      rpy="-3.1416 0 -3.1416" />
+    <parent
+      link="lowerarm_Link" />
+    <child
+      link="upperarm_Link" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-1.22173"
+      upper="4.27606"
+      effort="300"
+      velocity="2.0" />
+  </joint>
+  <link
+    name="revolver_Link">
+    <inertial>
+      <origin
+        xyz="0.0059449 0.086287 0.14945"
+        rpy="0 0 0" />
+      <mass
+        value="2.4" />
+      <inertia
+        ixx="0.01428"
+        ixy="-0.00060917"
+        ixz="-0.0010551"
+        iyy="0.011919"
+        iyz="-0.0043529"
+        izz="0.0068929" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/revolver_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.251 0.878 0.816 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/revolver_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="-0.41081 -0.0225 0.078"
+      rpy="0.5236 -1.5708 0" />
+    <parent
+      link="upperarm_Link" />
+    <child
+      link="revolver_Link" />
+    <axis
+      xyz="0 0.5 0.86603" />
+    <limit
+      lower="-3.1416"
+      upper="3.1416"
+      effort="200"
+      velocity="2.0" />
+  </joint>
+  <link
+    name="wrist_Link">
+    <inertial>
+      <origin
+        xyz="-0.0018737 -2.1137E-07 0.057608"
+        rpy="0 0 0" />
+      <mass
+        value="1.8391" />
+      <inertia
+        ixx="0.0057941"
+        ixy="1.1297E-08"
+        ixz="0.00010809"
+        iyy="0.011847"
+        iyz="-2.1919E-08"
+        izz="0.0090146" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/wrist_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.9098 0.44314 0.031373 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/wrist_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0 0.12785 0.22144"
+      rpy="0.5236 0 0" />
+    <parent
+      link="revolver_Link" />
+    <child
+      link="wrist_Link" />
+    <axis
+      xyz="-1 0 0" />
+    <limit
+      lower="-1.0472"
+      upper="3.1416"
+      effort="100"
+      velocity="2.0" />
+  </joint>
+  <link
+    name="jawgripper_Link">
+    <inertial>
+      <origin
+        xyz="0.019713 0.060787 0.072878"
+        rpy="0 0 0" />
+      <mass
+        value="0.29125" />
+      <inertia
+        ixx="0.00011202"
+        ixy="1.4665E-07"
+        ixz="5.5249E-08"
+        iyy="0.00013328"
+        iyz="-4.7653E-08"
+        izz="0.00011217" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/jawgripper_Link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.5 0.0 0.13 1.0" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/antoniousboshra/antonious_boshra_kuka_arm/src/kuka_arm_description/meshes/jawgripper_Link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="fixed">
+    <origin
+      xyz="-0.030869 -0.070553 0.17679"
+      rpy="1.5708 0 2.5133" />
+    <parent
+      link="wrist_Link" />
+    <child
+      link="jawgripper_Link" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+    <!-- Add transmissions for each joint using the macro -->
+  <xacro:add_transmission joint_name="joint2"/>
+  <xacro:add_transmission joint_name="joint3"/>
+  <xacro:add_transmission joint_name="joint4"/>
+  <xacro:add_transmission joint_name="joint5"/>
+  <xacro:add_transmission joint_name="joint6"/>
+
+</robot>

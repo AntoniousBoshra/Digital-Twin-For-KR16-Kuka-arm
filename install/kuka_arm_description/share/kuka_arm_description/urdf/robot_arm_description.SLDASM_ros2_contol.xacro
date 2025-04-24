@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kuka_arm">
+
+  <xacro:property name="PI" value="3.14159"/>
+
+  <!-- Macro for adding transmission -->
+  <xacro:macro name="add_transmission" params="joint_name">
+    <transmission name="trans_${joint_name}">
+      <type>transmission_interface/SimpleTransmission</type>
+      <joint name="${joint_name}">
+        <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+      </joint>
+      <actuator name="motor_${joint_name}">
+        <mechanicalReduction>1</mechanicalReduction>
+      </actuator>
+    </transmission>
+  </xacro:macro>
+
+  <!-- ros2_control configuration -->
+  <ros2_control name="KukaArmSystem" type="system">
+    <hardware>
+      <plugin>gazebo_ros2_control/GazeboSystem</plugin>
+    </hardware>
+
+    <!-- Joint definitions -->
+    <joint name="joint2">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint3">
+      <command_interface name="position">
+        <param name="min">-2.1</param>
+        <param name="max">2.1</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint4">
+      <command_interface name="position">
+        <param name="min">-1.22</param>
+        <param name="max">4.27</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint5">
+      <command_interface name="position">
+        <param name="min">-3.14</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+
+    <joint name="joint6">
+      <command_interface name="position">
+        <param name="min">-1.05</param>
+        <param name="max">3.14</param>
+      </command_interface>
+      <state_interface name="position"/>
+    </joint>
+  </ros2_control>
+
+  <!-- Add transmissions for each joint using the macro -->
+  <xacro:add_transmission joint_name="joint2"/>
+  <xacro:add_transmission joint_name="joint3"/>
+  <xacro:add_transmission joint_name="joint4"/>
+  <xacro:add_transmission joint_name="joint5"/>
+  <xacro:add_transmission joint_name="joint6"/>
+
+</robot>
