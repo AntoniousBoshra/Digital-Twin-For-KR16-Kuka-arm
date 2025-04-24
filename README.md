@@ -1,5 +1,5 @@
 ﻿# Digital-Twin-For-KR16-Kuka-arm
-# KUKA Robotic Arm - ROS 2 Humble Simulation
+
 
 This repository contains the URDF model and ROS 2 Humble integration for a simulated KUKA robotic arm. It includes control configuration using `ros2_control`, transmission setup, MQTT communication, and Gazebo simulation support.
 
